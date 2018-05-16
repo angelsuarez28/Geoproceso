@@ -5,7 +5,8 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Geoproceso</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+  <title>Rutas</title>
 
 
 
@@ -39,13 +40,28 @@
   <div id="mainCont">
 
 
-    <div id="tituloCont"> </div>
+    <div id="tituloCont">
+
+            <div id="logo">
+
+            <img src="imagenes\angelsuarez.png" width="80" height="80" alt="logo gis ">
+        </div>
+
+      <div id="titulo">
+          <h1 class="descripcion"> Cálculo de rutas en la ciudad de San Diego</h1>
+      </div>
+
+     </div>
+
     <div id="menuIzqCont">
-      <div>
-        <button type="button" name="button" id="btnRuta"> Calcular Ruta </button>
-        <input id="check" type="checkbox" checked>
-        
-        <button type="button" name="button" id="btnBorra"> Borrar todo </button>
+
+      <div id="botones">
+        <!--<button type="button" name="button" id="btn2Ruta"> Calcular Ruta </button>-->
+        <!--<input id="check" type="checkbox" checked>-->
+        <button type="button" class="btn btn-warning" name="button" id="btnRuta">Calcular Ruta</button>
+
+
+        <button type="button" class="btn btn-secondary" name="button" id="btnBorra">Borrar Ruta</button>
 
       </div>
 

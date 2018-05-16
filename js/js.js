@@ -122,7 +122,7 @@ Measurement_Units: units,
 
 
 
-var inputOptima = document.getElementById ("check");
+var inputOptima = document.getElementById ("btnRuta");
 
 inputOptima.onchange = calculaRuta;
 
